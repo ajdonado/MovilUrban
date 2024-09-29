@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "142390700156",
+    "project_id": "urbanburger-b7bf9",
+    "storage_bucket": "urbanburger-b7bf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142390700156:android:dfcde949662890a21501f9",
+        "android_client_info": {
+          "package_name": "com.example.urbanb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UW8RDsKMXnlqTOBAlepTnHAR7O2qE64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

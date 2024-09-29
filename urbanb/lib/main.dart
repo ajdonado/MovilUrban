@@ -1,7 +1,20 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:urbanb/firebase_options.dart';
 import 'package:urbanb/inicio.dart';
 
-void main()=> runApp(const DatosLocal());
+Future<void> main() async {
+  // Asegura que el framework de Flutter esté inicializado
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // Inicializa Firebase
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
+  // Ejecuta la aplicación
+  runApp(const DatosLocal());
+}
 
 
 class DatosLocal extends StatelessWidget {
